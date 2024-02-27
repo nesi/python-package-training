@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to test your package
-permalink: /python-scatter/testing
+permalink: /python-package/testing
 chapter: python-package
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to add continuous integration
-permalink: /python-scatter/continuous-integration
+permalink: /python-package/continuous-integration
 chapter: python-package
 ---
 

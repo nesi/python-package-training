@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Summary
-permalink: /python-scatter/summary
+permalink: /python-package/summary
 chapter: python-package
 ---
 
