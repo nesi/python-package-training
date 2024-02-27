@@ -1,0 +1,20 @@
+current directory: /Users/pletzera/perf-training/vendor/bundle/ruby/3.3.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+/usr/local/opt/ruby/bin/ruby extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/pletzera/perf-training/vendor/bundle/ruby/3.3.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20240227-42656-iy2p6i sitelibdir\=./.gem.20240227-42656-iy2p6i clean
+
+current directory: /Users/pletzera/perf-training/vendor/bundle/ruby/3.3.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20240227-42656-iy2p6i sitelibdir\=./.gem.20240227-42656-iy2p6i
+compiling unf.cc
+linking shared-object unf_ext.bundle
+ld: warning: ignoring duplicate libraries: '-lc++'
+
+current directory: /Users/pletzera/perf-training/vendor/bundle/ruby/3.3.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20240227-42656-iy2p6i sitelibdir\=./.gem.20240227-42656-iy2p6i install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20240227-42656-iy2p6i
+
+current directory: /Users/pletzera/perf-training/vendor/bundle/ruby/3.3.0/gems/unf_ext-0.0.9.1/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20240227-42656-iy2p6i sitelibdir\=./.gem.20240227-42656-iy2p6i clean
