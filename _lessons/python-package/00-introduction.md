@@ -7,7 +7,13 @@ chapter: python-package
 
 ## Aim of this training
 
-Learn how to develop Python packages that can be easily shared with your collaborators.
+Apply sound software development practices to develop and build Python packages. Upon completion of this training module, you will:
+
+ * know how to organise your package
+ * how to build and install your package
+ * how to document your package
+ * encourage contributions from others
+ * and ensure that your package reamins robust during its development cycle
 
 ## Prerequisites
 
@@ -29,9 +35,6 @@ module load Python
 ## My little package
 
 We will use the `my_little_package` code as an example.
-
-## Checking out the code
-
 Clone and switch to the repository:
 
 ```
