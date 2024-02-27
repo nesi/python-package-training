@@ -40,8 +40,8 @@ and follow the guidelines:
 
 Ruby and bundler are required.
 
-In the main repo directory run:
+In the main repo directory type:
 
-1. `bundle install --path vendor/bundle`
-2. `bundle exec jekyll server` (run the web server)
-3. View web page, probably at: http://127.0.0.1:4000/rse-training/
+```bash
+make
+```

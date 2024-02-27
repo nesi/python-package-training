@@ -1,6 +1,6 @@
 ---
 layout: section
-title: Creating Python Packages
+title: Developing Python Packages
 permalink: /python-package
 chapter: python-package
 order: 1

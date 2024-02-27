@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to add continuous integration
+title: Setting up continuous integration
 permalink: /python-package/continuous-integration
 chapter: python-package
 ---

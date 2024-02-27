@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to test your package
-permalink: /python-package/testing
+title: Testing your code
+permalink: /python-package/test
 chapter: python-package
 ---
 

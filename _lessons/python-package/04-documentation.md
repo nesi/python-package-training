@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to generate documentation
+title: Documenting your code
 permalink: /python-package/documentation
 chapter: python-package
 ---

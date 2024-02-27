@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: New Zealand eScience Infrastructure - Good Programming Practices Training
+title: New Zealand eScience Infrastructure Training - Good Programming Practices
 email: training@nesi.org.nz
 description: > # this means to ignore newlines until "baseurl:"
-  Training materials for a hands-on workshop on Performance Optimisation
+  Training materials for building Python packages on NeSI platform
 baseurl: "/rse-training" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nesi_nz
