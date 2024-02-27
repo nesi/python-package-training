@@ -3,7 +3,7 @@
 all: install serve
 
 install:
-	# bundle add webrick
+	# May need to run "bundle add webrick" on newer ruby
 	bundle install --path vendor/bundle
 
 serve:
