@@ -28,8 +28,9 @@ View the content here:
 
 Ruby and bundler are required.
 
-In the main repo directory run:
+In the main repo directory run. Type
+```bash
+make
+```
+to generate the documentation, which you can view at http://127.0.0.1:4000/perf-training/
 
-1. `bundle install --path vendor/bundle`
-2. `bundle exec jekyll server` (run the web server)
-3. View web page, probably at: http://127.0.0.1:4000/perf-training/
