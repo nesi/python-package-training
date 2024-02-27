@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Introduction to profiling
-permalink: /python-scatter/profiling
-chapter: python-scatter
+title: How to build a Python package and its dependencies
+permalink: /python-package/building
+chapter: python-package
 ---
 
 ## Objectives
