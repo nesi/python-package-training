@@ -1,9 +1,9 @@
-# NeSI Performance Optimisation Training
+# NeSI Research Sftware Engineering Training
 
-Training materials for hands-on workshops on performance optimisation.
+Training materials for hands-on workshops on developing code on NeSI platform.
 
 View the content here:
-[https://nesi.github.io/perf-training/](https://nesi.github.io/perf-training/).
+[https://nesi.github.io/rse-training/](https://nesi.github.io/rse-training/).
 
 ## Developing content
 
@@ -32,5 +32,5 @@ In the main repo directory run. Type
 ```bash
 make
 ```
-to generate the documentation, which you can view at http://127.0.0.1:4000/perf-training/
+to generate the documentation, which you can view at http://127.0.0.1:4000/rse-training/
 
