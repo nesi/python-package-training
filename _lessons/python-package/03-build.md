@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building your Pythoon package and its dependencies
+title: Building your Python package and its dependencies
 permalink: /python-package/build
 chapter: python-package
 ---

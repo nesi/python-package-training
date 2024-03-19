@@ -9,8 +9,9 @@ chapter: python-package
 
 You will:
 
-* 1
-* 2
+* Learn how to structure your package's directories
+
+## 
 
 > ## Exercises
 

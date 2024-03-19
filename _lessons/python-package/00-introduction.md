@@ -19,26 +19,20 @@ Apply sound software development practices to develop and build Python packages.
 
 To take this training you will need:
 
- * to be able to log into a Unix computer (and submit jobs if connected to a NeSI computer)
- * be comfortable with typing Unix and git commands
+ * to be able to log into a Unix computer, be comfortable with typing Unix and git commands
  * know how to use an editor
  * have some knowledge of Python
 
 ## Getting ready
 
-We will require Python 3 with external packages installed. On NeSI's Mahuika Cray CS400 cluster do:
+We will require Python 3.x with external packages installed. On NeSI's Mahuika Cray CS400 cluster do:
 
 ```
 module load Python
 ```
 
-## My little package
-
-We will use the `my_little_package` code as an example.
-Clone and switch to the repository:
-
+In a directory of your choice, execute 
 ```
-git clone https://github.com/jennan/my_little_package.git
-cd my_little_package
+mkdir my_little_package
+cd mkdir my_little_package
 ```
-
