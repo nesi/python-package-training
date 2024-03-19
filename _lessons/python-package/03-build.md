@@ -7,10 +7,7 @@ chapter: python-package
 
 ## Objectives
 
-You will learn how to build a Python package. 
-
-* 1
-* 2
+You will learn how to expose Python modules of your package to the interpreter. 
 
 ## The pyproject.toml file
 
@@ -79,12 +76,19 @@ Type
 ```
 pip install -e .[dev]
 ```
-to build your project. You should now have access to the script `mlp`. To check that the `mpl` script has been installed, type
+to build your project. This will also build any dependencies required by the package. Option `-e` makes the installation editable, i.e. it will pick any changes you make. 
+
+You should now have access to `my_little_package` module; command
+```
+python -c "import my_little_package"
+```
+should not produce any errors. In addition, check that the `mpl` script has been installed by typing
 ```
 mlp -h
 ```
 
+
 > ## Exercises
 
 > * Add a package version entry to the [pyproject.toml](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/) file under the `project` section
-> * Consider making package version dynamically linked to the Git tag. This requires `setuptools_scm` in the `build-system` section in addition to `setuptools`. You will then need to set `dynamic = [version]` under `project`. 
+> * Consider making the package version dynamically linked to the Git tag inthe repository. This requires `setuptools_scm` in the `build-system` section in addition to `setuptools`. You will then need to set `dynamic = [version]` under `project` and add a section `[tool.setuptools_scm]`, which you can leave empty.
