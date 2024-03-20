@@ -7,9 +7,9 @@ chapter: python-package
 
 ## Objectives
 
-You will learn how to expose Python modules of your package to the interpreter. 
+You will learn how to build your project. Once built, the functionality of your project will become accessible to the Python interpreter and you'll be able to run the installed scripts.
 
-## The pyproject.toml file
+## An example porject
 
 We'll assume that your project, for simplicity, contains two files. File `src/my_little_package/talk.py`:
 ```python
@@ -20,7 +20,7 @@ def greeting(name: str):
     """
     print(f"Hello {name}!")
 ```
-and file `src/my_little_package/cli.py`
+and file `src/my_little_package/cli.py`:
 ```python
 import defopt
 from my_little_package.talk import greeting
@@ -29,6 +29,11 @@ def main():
     defopt.run(greeting)
 ```
 
+Together, these files will expose the `talk` function and the `cli.py` script.
+
+## The pyproject.toml file
+
+To build the project, we need to provide additional information about the project. This additional information is captured in a `pyproject.toml` file.
 
 Create a `pyproject.toml` file that contains the list of build tools, describes the project, lists the build dependencies, the scripts and other metadata. An example is shown below:
 ```
