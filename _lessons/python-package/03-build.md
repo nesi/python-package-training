@@ -7,7 +7,7 @@ chapter: python-package
 
 ## Objectives
 
-You will learn how to build your project. Once built, the functionality of your project will become accessible to the Python interpreter and you'll be able to run the installed scripts.
+Sooner or later you will want to expose the functionality of your project to other users. This functionality could be in the form of scripts or modules the users will need to import. To achieve this you will need to build your package. 
 
 ## An example porject
 
@@ -47,29 +47,16 @@ description = "a minimal package example"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
-    { name = "John Doe", email = "john.doe@ewiury.com.nz" },
+    { name = "John Doe", email = "john.doe@strangeuni.edu.nz" },
 ]
 dependencies = [
     "pyyaml",
     "defopt",
 ]
 
-[project.optional-dependencies]
-test = ["pytest"]
-dev = [
-    "my_little_package[test]",
-    "ruff",
-    "pdbpp",
-    "pyinstrument"
-]
-
 [project.scripts]
 mlp = "my_little_package.cli:main"
 
-[tool.ruff]
-select = ["E", "F"]
-ignore = ["E203"]
-extend-exclude = [".ipynb_checkpoints"]
 ```
 
 Note the line `mlp = "my_little_package.cli:main"` under the `project.scripts` section. This entry tells the build system to generate a command `mlp`, which maps to the `main` function of `cli.py` script under `my_little_package`. 
@@ -81,7 +68,7 @@ Type
 ```
 pip install -e .[dev]
 ```
-to build your project. This will also build any dependencies required by the package. Option `-e` makes the installation editable, i.e. it will pick any changes you make. 
+to build your project. This will also build any dependencies required by the package. Option `-e` makes the installation editable, i.e. it will pick up any changes you make. You won't have to install again if you change the code.
 
 You should now have access to `my_little_package` module; command
 ```

@@ -9,8 +9,8 @@ chapter: python-package
 
 A typical Python package will depend on other Python packages. The list of Python dependencies can be 
 long and it is often advisable to nail down these dependencies to produce a well defined environment. 
-Here we show how to generate a reproducible development environment, which will be identical between 
-developers.
+Here we show you how to generate a reproducible development environment -- each package dependecy will be 
+nailed down to its exact version.
 
 You will learn:
 
@@ -23,7 +23,7 @@ You will learn:
 A virtual environment is a minimalistic environment that contains just the dependencies your project 
 needs. This minimises the risk of package conflict and ensures that your project will behave in reproducible way.
 
-We'll create a virtual environment called `venv` that will contain these packages
+We'll create a virtual environment inside `my_little_package` directory called `venv` that will contain these packages
 ```
 python3 -m venv venv
 ```
