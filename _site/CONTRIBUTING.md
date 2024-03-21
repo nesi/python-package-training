@@ -5,7 +5,7 @@
 If you find a problem with the training material we are happy to receive Pull Requests with fixes
 (see [How to make a contribution](#how-to-make-a-contribution)), otherwise let us know what the problem is:
 
-* [open an issue](https://github.com/nesi/perf-training/issues)
+* [open an issue](https://github.com/nesi/rse-training/issues)
 * email [training@nesi.org.nz](mailto:training@nesi.org.nz)
 
 ## How to make a contribution
