@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating your Python package structure
+title: Structuring your Python package
 permalink: /python-package/structure
 chapter: python-package
 ---
