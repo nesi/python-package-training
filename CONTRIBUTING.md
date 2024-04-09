@@ -38,7 +38,9 @@ and follow the guidelines:
 
 ## Building the web version locally
 
-Ruby and bundler are required.
+Ruby and bundler are required. On Ubuntu:
+ * sudo apt install ruby-dev
+ * sudo apt install ruby-bundler
 
 In the main repo directory type:
 
