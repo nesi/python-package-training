@@ -1,4 +1,4 @@
-# NeSI Research Sftware Engineering Training
+# NeSI Research Software Engineering Training
 
 Training materials for hands-on workshops on developing code on NeSI platform.
 
