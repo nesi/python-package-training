@@ -65,7 +65,7 @@ python -c "import sklearn"
 python -c "import pandas"
 python -c "import numpy"
 ```
-should succeed.
+should not produce and error.
 
 
 
