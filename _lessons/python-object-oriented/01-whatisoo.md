@@ -58,7 +58,7 @@ will print `False`.
 
 An object can also have (member) functions, which apply to the object. These are called methods and they may take arguments. 
 
-As in the case of members, methods can be accessed using the `.` notation. Note in the example below how instance `model` calls methos `fit, which takes two arguments `X` and `y`:
+As in the case of members, methods can be accessed using the `.` notation. Note in the example below how instance `model` calls methos `fit`, which takes two arguments `X` and `y`:
 ```python
 model1.fit(X=[[1,],[2,]], y=[1, 2])
 ```
