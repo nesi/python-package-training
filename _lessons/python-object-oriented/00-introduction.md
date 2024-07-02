@@ -43,7 +43,7 @@ You're welcome to use your own Python development platform, including that on yo
 ```bash
 python -m venv venv
 source activate venv
-pip install pandas scikit-learn
+pip install numpy pandas scikit-learn
 ```
 using a virtual environment.
 
@@ -59,7 +59,8 @@ module load Python
 The commands 
 ```bash
 python -c "import sklearn"
-python -c "import pandas
+python -c "import pandas"
+python -c "import numpy"
 ```
 should succeed.
 
