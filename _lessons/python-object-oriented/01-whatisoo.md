@@ -22,15 +22,23 @@ A class defines the type of an object. In the example below
 ```python
 from sklearn.linear_model import LinearRegression
 ```
-`LinearRegression` is a class. Class names often start with a capital letter. A class denotes a type, in this case a type linear model regression
+`LinearRegression` is a class. A class denotes a type, in this case a linear regression type. 
+
+We can think of a class as the analogy to the brand of a consumer good. For example, the class of a handbag may be "Gucci". 
+
+Hint: In sklearn and other packages, class names start with a capital letter. 
 
 ## What is an instance of a class
 
-An instance of a class is a particular realisation of a given class. Sometimes an instance is simply referred to as an object. In the code below
+An _instance_ is a particular realisation of a class. Sometimes an instance is simply referred to as an object. 
+
+To pursue our handbag analogy, an instance would be a particular handbag. There may be many handbags of the same class, which may be slightly different but all of the "Gucci" brand. 
+
+In the code below
 ```python
 mymodel = LinearRegression(fit_intercept=False)
 ```
-we create model called `mymodel` by creating an instance of class `LinearRegression`. There can be many instances of the same type. For instance, we might have 
+we create model called `mymodel` by creating an instance of class `LinearRegression`. It is possible to cerate multiple instances of the same class, e.g.
 ```python
 model1 = LinearRegression(positive=False)
 model2 = LinearRegression(positive=True)
@@ -40,7 +48,7 @@ Both `model1` and `model2` are of type `LinearRegression`.
 
 ## What is a member
 
-Objects can have attributes, values that are attached to them. For instance,
+Objects can have properties and these can be accessed using the `.` notation. For instance,
 ```python
 model1.positive
 ```
@@ -48,14 +56,16 @@ will print `False`.
 
 ## What is a method
 
-An object can also have functions, which apply to the object. These are called methods and they may take arguments. For instance,
+An object can also have (member) functions, which apply to the object. These are called methods and they may take arguments. 
+
+As in the case of members, methods can be accessed using the `.` notation. Note in the example below how instance `model` calls methos `fit, which takes two arguments `X` and `y`:
 ```python
 model1.fit(X=[[1,],[2,]], y=[1, 2])
 ```
 
 > ## Exercises
 
-> * Find another class of linear regression model from the `sklear` documentation
+> * Find another class of linear regression model from the `sklearn` documentation
 > * Instantiate an object from the above class
 > * From the documentation, list some members and some methods of this class
 
