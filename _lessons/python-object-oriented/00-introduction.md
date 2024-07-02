@@ -35,7 +35,10 @@ To take this training you will need:
 
 ## Getting ready
 
-We will require Python 3.x with `pandas` and `scikit-learn` installed.
+We will require Python 3.x with `pandas` and `scikit-learn` installed. Check that you have `python 3` installed on your system with
+```
+python --version
+```
 
 ### On your platform
 
