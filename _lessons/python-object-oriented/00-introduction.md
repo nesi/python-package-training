@@ -39,10 +39,10 @@ We will require Python 3.x with `pandas` and `scikit-learn` installed.
 
 ### On your platform
 
-You're welcome to use your own Python development platform, including that on your laptop. `pandas` and `scikit-learn` can be installed with the command
+You're welcome to use your own Python development platform, for instance by following on your laptop. `numpy`, `pandas` and `scikit-learn` can be installed with the command
 ```bash
 python -m venv venv
-source activate venv
+source venv/bin/activate
 pip install numpy pandas scikit-learn
 ```
 using a virtual environment.
