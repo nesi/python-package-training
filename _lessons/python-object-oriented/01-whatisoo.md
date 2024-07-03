@@ -26,13 +26,13 @@ from sklearn.linear_model import LinearRegression
 
 We can think of a class as the analogy to the brand of a consumer good. For example, the class of a handbag may be "Gucci". 
 
-Hint: In sklearn and other packages, class names start with a capital letter. 
+**Hint: In sklearn and other packages, class names start with a capital letter.**
 
 ## What is an instance of a class
 
 An _instance_ is a particular realisation of a class. Sometimes an instance is simply referred to as an object. 
 
-To pursue our handbag analogy, an instance would be a particular handbag. There may be many handbags of the same class, which may be slightly different but all of the "Gucci" brand. 
+To pursue our handbag analogy, an instance would be a particular handbag. There may be many handbags of the same class, which may be slightly different but all carry the "Gucci" brand. 
 
 In the code below
 ```python
@@ -54,6 +54,9 @@ model1.positive
 ```
 will print `False`.
 
+**NB1: a `.` may also denote a name space in Python, e.g. `foo.bar()` calls function `bar` in module `foo`.**
+**NB2: a member is often a noun, e.g. `material`, `size`...**
+
 ## What is a method
 
 An object can also have (member) functions, which apply to the object. These are called methods and they may take arguments. 
@@ -62,6 +65,8 @@ As in the case of members, methods can be accessed using the `.` notation. Note 
 ```python
 model1.fit(X=[[1,],[2,]], y=[1, 2])
 ```
+
+**NB: a method is often a verb, e.g. `carry`, `buy`,...**
 
 > ## Exercises
 
