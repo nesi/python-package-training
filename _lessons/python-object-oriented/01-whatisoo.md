@@ -54,9 +54,9 @@ model1.positive
 ```
 will print `False`.
 
-_Notes
- 1. a `.` may also denote a name space in Python, e.g. `foo.bar()` calls function `bar` in module `foo`__
- 2. a member is often a noun, e.g. `material`, `size`..._
+_Notes_
+ 1. _a `.` may also denote a name space in Python, e.g. `foo.bar()` calls function `bar` in module `foo`_
+ 2. _a member is often a noun, e.g. `material`, `size`..._
 
 ## What is a method
 
@@ -67,7 +67,7 @@ As in the case of members, methods can be accessed using the `.` notation. Note 
 model1.fit(X=[[1,],[2,]], y=[1, 2])
 ```
 
-**NB: a method is often a verb, e.g. `carry`, `buy`,...**
+_Note: a method is often a verb, e.g. `carry`, `buy`,..._
 
 > ## Exercises
 
