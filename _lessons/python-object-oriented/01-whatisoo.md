@@ -26,7 +26,7 @@ from sklearn.linear_model import LinearRegression
 
 We can think of a class as the analogy to the brand of a consumer good. For example, the class of a handbag may be "Gucci". 
 
-__Hint: In sklearn and other packages, class names start with a capital letter__
+_Hint: In sklearn and other packages, class names start with a capital letter_
 
 ## What is an instance of a class
 
@@ -54,8 +54,9 @@ model1.positive
 ```
 will print `False`.
 
-__NB1: a `.` may also denote a name space in Python, e.g. `foo.bar()` calls function `bar` in module `foo`__
-__NB2: a member is often a noun, e.g. `material`, `size`...__
+_Notes
+ 1. a `.` may also denote a name space in Python, e.g. `foo.bar()` calls function `bar` in module `foo`__
+ 2. a member is often a noun, e.g. `material`, `size`..._
 
 ## What is a method
 
